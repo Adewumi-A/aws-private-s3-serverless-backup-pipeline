@@ -27,4 +27,4 @@ An end-to-end, zero-NAT cloud backup architecture built on AWS. A private EC2 ap
 
 ## Author
 
-- **Adewumi** — [Read the full write-up on Medium]([YOUR-MEDIUM-ARTICLE-LINK](https://medium.com/@adebayoadewumi_45437/build-with-me-a-tamper-proof-zero-nat-automated-backup-serverless-audit-pipeline-on-aws-a49125ed8541))
+- **Adewumi** [Read the full write-up on Medium]([YOUR-MEDIUM-ARTICLE-LINK](https://medium.com/@adebayoadewumi_45437/build-with-me-a-tamper-proof-zero-nat-automated-backup-serverless-audit-pipeline-on-aws-a49125ed8541))
