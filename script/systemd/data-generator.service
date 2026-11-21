@@ -1,0 +1,12 @@
+[Unit]
+Description=Application Data Generator Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do echo "$(date -u +"%%Y-%%m-%%dT%%H:%%M:%%SZ") - Application heartbeat log entry" >> /var/app/data/app.log; sleep 30; done'
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
